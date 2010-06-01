@@ -2,10 +2,6 @@
 
 a tiny & unobtrusive event library for node.js
 
-# license
-
-MIT
-
 ## simple usage
 
 	var sys = require('sys');
@@ -63,3 +59,7 @@ MIT
 
 	sys.puts(name);
 		# => 'this name was modified twice'
+		
+## license
+
+MIT
