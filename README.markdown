@@ -13,7 +13,7 @@ a tiny & unobtrusive event library for node.js
 		}
 	};
 	
-	event.addListener('name-set', function(){
+	event.addListener(User, 'name-set', function(){
 		sys.puts('the name was set!');
 	});
 	
